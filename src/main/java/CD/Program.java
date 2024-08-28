@@ -16,14 +16,14 @@ public class Program {
         QuanLyCD ql = new QuanLyCD();
         int luaChon;
             do {
-                System.out.println("1. Xuất toàn bộ CD");
-                System.out.println("2. CD phát hành trước năm 2020");
-                System.out.println("3. Tìm CD chứa 'tinh'");
-                System.out.println("4. Sắp xếp CD theo giá giảm dần");
-                System.out.println("5. Xóa CD theo mã số");
-                System.out.println("6. Sửa giá bán của CD theo mã số");
-                System.out.println("7. Thoát");
-                System.out.print("Chọn chức năng: ");
+                System.out.println("1. Xuat Toan Bo CD");
+                System.out.println("2. CD phat hanh truoc 2020");
+                System.out.println("3. Tim CD chua 'tinh'");
+                System.out.println("4. Sap xep CD theo gia giam dan");
+                System.out.println("5. Xoa CD theo ma so");
+                System.out.println("6. Sua gia ban cua CD theo ma so");
+                System.out.println("7. Thoat");
+                System.out.print("Chon chuc nang: ");
                 luaChon = sc.nextInt();
                 sc.nextLine();
                 switch (luaChon) {
@@ -54,4 +54,3 @@ public class Program {
             } while (luaChon != 7);
         }
     }
-}

@@ -25,7 +25,7 @@ public class QuanLyCD {
     }
     public void xuatToanBoCD() {
         for (CD cd : ds){
-            System.out.print(cd);
+            System.out.println(cd);
         }  
         System.out.println("Tong tri gia CD: " + tinhTongTriGia());
     }

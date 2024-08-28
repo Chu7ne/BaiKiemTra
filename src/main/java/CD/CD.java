@@ -12,7 +12,7 @@ public class CD {
     String maso, tenCD, casi;
     double giaban;
     int namphathanh;
-public CD(String maso, String tenCD, String casi, int namphathanh, int giaban){ 
+public CD(String maso, String tenCD, String casi, int giaban,int namphathanh){ 
     this.maso = maso;
     this.tenCD = tenCD;
     this.casi = casi;
