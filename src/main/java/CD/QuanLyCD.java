@@ -5,8 +5,6 @@
 package CD;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
 
 
 /**
@@ -55,4 +53,8 @@ public class QuanLyCD {
             System.out.println(cd);
         }
     }
+    public void Xoa(String maso){
+        ds.removeIf(cd->cd.getMaso().equals(maso));
+    }
 }
+

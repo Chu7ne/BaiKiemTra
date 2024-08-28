@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class Program {  
     public static void main(String[] args) {
-        static Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         QuanLyCD ql = new QuanLyCD();
         int luaChon;
             do {
@@ -24,20 +24,25 @@ public class Program {
                 System.out.println("6. Sửa giá bán của CD theo mã số");
                 System.out.println("7. Thoát");
                 System.out.print("Chọn chức năng: ");
-                chon = sc.nextInt();
+                luaChon = sc.nextInt();
                 sc.nextLine();
                 switch (luaChon) {
                     case 1:
                         ql.xuatToanBoCD();
                         break;
                     case 2:
-                        ql.
+                        ql.layCDTruocNam2020();
                         break;
                     case 3:
+                        ql.timCD();
                         break;
                     case 4:
+                        ql.SapXep();
                         break;
                     case 5:
+                        System.out.println("Nhap ma CD can xoa");
+                        String maso = sc.nextLine();
+                        ql.Xoa(maso);
                         break;
                     case 6:
                         break;
